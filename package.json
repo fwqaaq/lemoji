@@ -48,13 +48,13 @@
     "prettier": "prettier --write ."
   },
   "devDependencies": {
+    "@octokit/core": "^4.0.4",
     "@types/node": "^16.11.27",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
     "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "node-fetch": "3.2.9",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
     "unbuild": "^0.7.6"
