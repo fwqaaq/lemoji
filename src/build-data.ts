@@ -14,23 +14,23 @@ const input: Ilemoji[] = JSON.parse(String(fs.readFileSync('lemoji.json')))
 const emojis: Ilemoji[] = []
 
 /** @type {Record<string,string>}  */
-
 const nameToEmoji: { [key: string]: string } = {}
 
 /** @type {Record<string,string>}  */
 const emojiToName: { [key: string]: string } = {}
 
-let index = -1
-while (++index < input.length) {
-  const info = input[index]
+let index = 0
+while (index < input.length) {
+  const info = input[index++]
   const emoji = info.emoji
   const name = info.names[0]
 
   emojis.push(info)
   emojiToName[emoji] = name
-  let nameIndex = -1
-  while (++nameIndex < info.names.length) {
-    nameToEmoji[info.names[nameIndex]] = emoji
+
+  let nameIndex = 0
+  while (nameIndex < info.names.length) {
+    nameToEmoji[info.names[nameIndex++]] = emoji
   }
 }
 fs.writeFileSync(
