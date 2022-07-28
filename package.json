@@ -1,5 +1,5 @@
 {
-  "name": "ts-template",
+  "name": "lemoji",
   "type": "module",
   "author": "Jack-Zhang <zyj17715640603@gmail.com>",
   "version": "0.0.0",
@@ -14,7 +14,13 @@
     "url": "git+https://github.com/Jack-Zhang-1314/lemoji.git"
   },
   "bugs": "https://github.com/Jack-Zhang-1314/lemoji/issues",
-  "keywords": [],
+  "keywords": [
+    "lemoji",
+    "emoji",
+    "unicode",
+    "name",
+    "shortcode"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
