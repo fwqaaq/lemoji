@@ -1,8 +1,22 @@
 
-   export const lemoji = [
+export const lemoji = [
+  {
+    "emoji": "(·•᷄ࡇ•᷅ ）",
+    "names": [
+      "tangled"
+    ],
+    "tags": [
+      "frustrated",
+      "unhappy"
+    ],
+    "description": "tangled face",
+    "category": "Smileys & Emotion"
+  },
   {
     "emoji": "(◍•ᴗ•◍)",
-    "names": "smiley",
+    "names": [
+      "smiley"
+    ],
     "tags": [
       "happy",
       "joy",
@@ -114,17 +128,49 @@
   },
   {
     "emoji": "ʕ•ﻌ•ʔ",
-    "names": "bear",
+    "names": [
+      "bear"
+    ],
     "tags": [],
     "description": "bear",
     "category": "Animals & Nature"
   },
   {
     "emoji": "ि०॰०ॢी",
-    "names": "kitten",
+    "names": [
+      "kitten"
+    ],
     "tags": [],
     "description": "kitten",
     "category": "Animals & Nature"
   }
 ]
-  
+export const nameToEmoji = {
+  "tangled": "(·•᷄ࡇ•᷅ ）",
+  "smiley": "(◍•ᴗ•◍)",
+  "observed": "(՞• •՞)",
+  "puzzled": "ˁ˙͡˟˙ˀ",
+  "sad": "꒰ꌶ ̯ ̜ꌶ ꒱",
+  "beautiful": "ꉂꉂ꒰•̤▿•̤*ૢ꒱",
+  "wide-eyed": "( Ꙭ)",
+  "fear": "•﹏•",
+  "happy": "(•̀ᴗ• )",
+  "smile": "(*^_^*)",
+  "bear": "ʕ•ﻌ•ʔ",
+  "kitten": "ि०॰०ॢी"
+}
+export const emojiToName = {
+  "(·•᷄ࡇ•᷅ ）": "tangled",
+  "(◍•ᴗ•◍)": "smiley",
+  "(՞• •՞)": "observed",
+  "ˁ˙͡˟˙ˀ": "puzzled",
+  "꒰ꌶ ̯ ̜ꌶ ꒱": "sad",
+  "ꉂꉂ꒰•̤▿•̤*ૢ꒱": "beautiful",
+  "( Ꙭ)": "wide-eyed",
+  "•﹏•": "fear",
+  "(•̀ᴗ• )": "happy",
+  "(*^_^*)": "smile",
+  "ʕ•ﻌ•ʔ": "bear",
+  "ि०॰०ॢी": "kitten"
+}
+   
