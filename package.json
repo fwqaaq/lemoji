@@ -1,0 +1,52 @@
+{
+  "name": "ts-template",
+  "type": "module",
+  "author": "Jack-Zhang <zyj17715640603@gmail.com>",
+  "version": "0.0.0",
+  "main": "./dist/index.mjs",
+  "packageManager": "pnpm@7.1.7",
+  "description": "",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/Jack-Zhang-1314",
+  "homepage": "https://github.com/Jack-Zhang-1314/ts-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jack-Zhang-1314/ts-template.git"
+  },
+  "bugs": "https://github.com/Jack-Zhang-1314/ts-template/issues",
+  "keywords": [],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .js,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.27",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
+    "unbuild": "^0.7.6"
+  }
+}
