@@ -5,15 +5,15 @@
   "version": "0.0.0",
   "main": "./dist/index.mjs",
   "packageManager": "pnpm@7.1.7",
-  "description": "",
+  "description": "Emoticons made using a series of symbols.",
   "license": "MIT",
   "funding": "https://github.com/sponsors/Jack-Zhang-1314",
-  "homepage": "https://github.com/Jack-Zhang-1314/ts-template#readme",
+  "homepage": "https://github.com/Jack-Zhang-1314/lemoji#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jack-Zhang-1314/ts-template.git"
+    "url": "git+https://github.com/Jack-Zhang-1314/lemoji.git"
   },
-  "bugs": "https://github.com/Jack-Zhang-1314/ts-template/issues",
+  "bugs": "https://github.com/Jack-Zhang-1314/lemoji/issues",
   "keywords": [],
   "exports": {
     ".": {
