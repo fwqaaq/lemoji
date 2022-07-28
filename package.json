@@ -42,7 +42,7 @@
   },
   "scripts": {
     "dev": "unbuild --stub",
-    "build": "node ./src/fetch-data.mjs &&ts-node ./src/build-data.ts && unbuild",
+    "build": "node ./src/fetch-data.mjs && ts-node ./src/build-data.ts && unbuild",
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --ext .js,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "prettier": "prettier --write ."
