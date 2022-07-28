@@ -1,6 +1,5 @@
 {
   "name": "lemoji",
-  "type": "module",
   "author": "Jack-Zhang <zyj17715640603@gmail.com>",
   "version": "0.0.0",
   "main": "./dist/index.mjs",
@@ -9,6 +8,9 @@
   "license": "MIT",
   "funding": "https://github.com/sponsors/Jack-Zhang-1314",
   "homepage": "https://github.com/Jack-Zhang-1314/lemoji#readme",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jack-Zhang-1314/lemoji.git"
@@ -19,7 +21,8 @@
     "emoji",
     "unicode",
     "name",
-    "shortcode"
+    "shortcode",
+    "tag"
   ],
   "exports": {
     ".": {
@@ -51,6 +54,7 @@
     "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "node-fetch": "3.2.9",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
     "unbuild": "^0.7.6"
