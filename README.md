@@ -155,6 +155,23 @@ pnpm add lemoji
    console.log(emojiToName["ꐦ≖ ≖"])//angry
    ```
 
+## use cli to search name
+
+> if you want to know wether there is this name, or want to contribute an emoji, you can use it.
+
+* if you don't have a global download
+
+   ```js
+    npx lemoji -n happy
+    //The name is already there (happy), and its emoji is((•̀ᴗ• )) please rename it
+   ```
+
+* if you have a global download, you can directly use.
+
+   ```js
+   lemoji -n happy
+   ```
+
 ## License
 
 [MIT](LICENSE)
