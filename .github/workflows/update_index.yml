@@ -23,6 +23,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: https://registry.npmjs.org/
           cache: pnpm
-      - run: pnpm install
+      - run: |
+          pnpm install
+          pnpm add ts-node -g
       - name: Build
         run: pnpm build
