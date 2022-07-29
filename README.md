@@ -1,5 +1,9 @@
 # lemoji
 
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/lemoji?logo=lemoji&logoColor=green&style=social)
+![GitHub](https://img.shields.io/github/license/Jack-Zhang-1314/lemoji?style=social)
+![npm](https://img.shields.io/npm/v/lemoji?style=social)
+
 Emoticons made using a series of symbols.
 
 ## What is this?
